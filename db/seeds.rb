@@ -1,7 +1,23 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+Wine.create({
+    varietal: "Cabernet Sauvignon",
+    producer: "Outpost",
+    region: "Howell Mountain, Napa Valley",
+    vintage: 2014,
+    number_in_collection: 5
+})
+
+Wine.create({
+    varietal: "Pinot Noir",
+    producer: "Kosta Browne",
+    region: "Russian River Valley",
+    vintage: 2015,
+    number_in_collection: 6
+})
+
+Wine.create({
+    varietal: "Zinfandel",
+    producer: "Sandler Wine Co.",
+    region: "Buck Hill Vineyard, Sonoma County",
+    vintage: 2013,
+    number_in_collection: 1
+})
