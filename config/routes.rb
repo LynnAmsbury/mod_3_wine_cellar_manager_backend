@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  resources :wines, only:[:index]
+  resources :wines, only:[:index, :show]
 end
